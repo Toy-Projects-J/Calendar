@@ -1,4 +1,4 @@
-# Toy Project - Calander
+# Toy Project - Calendar
 - 캘린더 일정 주기관리 어플리케이션 개발
 - 2022.04.14 ~
 
