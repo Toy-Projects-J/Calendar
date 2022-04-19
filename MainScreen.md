@@ -1,6 +1,6 @@
 # HTML
 ## div_mainCalendar_variableName
-<!-- ipad로 그린 러프스케치 이미지 넣을예정 -->
+
 1. calendar-left-side-nav
 - current-year-month-wrap
 - current-day-wrap
@@ -32,3 +32,16 @@ from when to when 은 날짜 설정으로 dateType필요-->
 2. navigation
 3. popup-day
 4. popup-settings -->
+---
+# RoughSketch Image
+![roughSketch_1](/img/roughSketch_1.jpeg)
+- maincalendar
+    - 메인에서 보여질 화면
+
+![roughSketch_2](/img/roughSketch_2.jpeg)
+- to do list
+    - to do list입력시 보여질 화면
+
+![roughSketch_3](/img/roughSketch_3.jpeg)
+- setting 
+    - settings button클릭시 보여질 화면
