@@ -33,6 +33,11 @@ from when to when 은 날짜 설정으로 dateType필요-->
 3. popup-day
 4. popup-settings -->
 ---
+# JS
+- calendar 참고
+    - https://solbel.tistory.com/930
+    - https://youtu.be/jFmcH5GVRs4
+---
 # RoughSketch Image
 ![roughSketch_1](/img/roughSketch_1.jpeg)
 - maincalendar
