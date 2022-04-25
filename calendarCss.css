@@ -17,7 +17,7 @@ body {
     display: flex;
     justify-content: space-between;
     flex-basis: 1;
-    width: 600px;
+    width: 100%;
     margin: 50px;
 }
 .calendar-left-side-nav {
@@ -62,4 +62,32 @@ border-right: 1px solid #333;
     height: 500px;
     border-top: 1px solid #333;
     border-right: 1px solid #333;
+}
+
+/* 정수가 넣은 css */
+.date{
+    width: calc(100%/7);
+    text-align: center;
+    border: 3px double black;
+}
+.other{
+    opacity: 0.3;
+}
+/* 오늘 날짜를 표기하는 css인데 안나오넹.. */
+.today{
+    position: relative;
+    color: #FFFFFF;
+}
+.today::before{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    width: 30px;
+    height: 30px;
+    display: block;
+    background-color: #FF0000;
+    border-radius: 50%;
+    content: '';
 }
